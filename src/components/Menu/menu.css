@@ -1,5 +1,5 @@
 .CJ{
-    height: 70px;
+    max-height: 70px;
 }
 .Logo {
     max-width: 168px;
@@ -7,6 +7,10 @@
   @media (max-width: 800px) {
     .Logo {
       max-width: 105px;
+    }
+
+    .CJ{
+      max-height: 40px;
     }
   }
   
