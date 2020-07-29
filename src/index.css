@@ -23,3 +23,15 @@ body {
 a {
   color: inherit;
 } 
+
+canvas {
+  border: 1px solid #000;
+  display: block;
+  margin: 0 auto;
+}
+
+#root{
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
